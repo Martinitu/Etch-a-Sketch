@@ -1,1 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, auto);;
+  width: 160px;
+    height: 160px;
+  background-color: burlywood;
+  padding: 20px;
+    
+}
 
+
+.squareDivs {
+ 
+    height: 10px;
+    width: 10px;
+    background-color: rgb(58, 137, 202);
+
+}
+
+.squareDivsChange {
+ 
+    height: 10px;
+    width: 10px;
+    background-color: rgb(224, 8, 8);
+
+}
