@@ -9,6 +9,7 @@ const container = document.querySelector(".container")
    
  
     function promtColums(){
+        clearGrid();
         var userColumns = prompt("Please enter the number of Colums");
 
         if (userColumns > 100 || userColumns < 0 || isNaN(userColumns))
@@ -42,4 +43,8 @@ const container = document.querySelector(".container")
       
   });
 }
-    
+
+//clears grid (removes divs inside container)
+function clearGrid(){
+    container.innerHTML = "";
+}
